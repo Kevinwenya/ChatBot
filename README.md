@@ -3,13 +3,13 @@
 
 ###  运行环境
 #### python2.7 + tensorflow0.12
-#  Install pip and virtualenv
+####  Install pip and virtualenv
     sudo apt-get install python-pip python-dev python-virtualenv
-#  Create a virtualenv environment
+####  Create a virtualenv environment
     virtualenv --system-site-packages(targetDirectory), just like:virtualenv ~/tensorflow0.12
-#  Activate the virtualenv environment
+####  Activate the virtualenv environment
     source ~/tensorflow0.12/bin/activate
-#  Install TensorFlow
+####  Install TensorFlow
     sudo pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.12.1-cp27-none-linux_x86_64.whl
 
 ### 1. 数据获取 
